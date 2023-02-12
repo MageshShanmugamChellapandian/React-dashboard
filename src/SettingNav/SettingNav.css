@@ -1,0 +1,51 @@
+.settingnav {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  background-color: white;
+  padding: 0.5rem;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 7px 29px 0px;
+}
+
+.settingnav_left {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.settingnav_left span {
+  color: orange;
+  font-weight: 500;
+}
+
+.settingnav_right {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  color: orange;
+  border: 2px solid orange;
+  padding: 0.2rem 1rem;
+  border-radius: 6px;
+  gap: 0.4rem;
+}
+
+.settingnav_right svg {
+  font-size: 1.4rem;
+  stroke-width: 0.05rem;
+}
+
+.setting_dropdown select {
+  background: #f2f2f2;
+  padding: 0.3rem 0.5rem;
+  border: 1px solid gray;
+  border-radius: 2px;
+  font-size: 0.9rem;
+}
+
+@media (min-width: 1024px) {
+  .settingnav {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+}

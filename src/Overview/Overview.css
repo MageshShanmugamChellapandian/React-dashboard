@@ -1,0 +1,41 @@
+.overview_stats_wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+.overview_stats {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  padding: 0.5rem 1rem;
+}
+
+.overview_stats_icon {
+  font-size: 1.6rem;
+  color: rgb(235, 163, 30);
+}
+
+.overview_stats_data div:nth-child(1) {
+  color: rgb(85, 85, 85);
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+
+.overview_stats_data div:nth-child(2) {
+  color: rgb(235, 163, 30);
+  font-size: 1.2rem;
+}
+.overview_green_dot {
+  height: 8px;
+  width: 8px;
+  vertical-align: super;
+  background-color: #00a600;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+@media (min-width: 1024px) {
+  .overview {
+    grid-column: 1/2;
+  }
+}

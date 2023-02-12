@@ -1,0 +1,11 @@
+.logo {
+  width: 70px;
+  margin-right: 12px;
+
+  &.small {
+    width: 3rem;
+  }
+  &.large {
+    width: 90px;
+  }
+}

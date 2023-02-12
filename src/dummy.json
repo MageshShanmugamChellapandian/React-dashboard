@@ -1,0 +1,42 @@
+{
+    "nodes":  [
+      {"name": "Providing Services"},
+      {"name": "Renting out premises"},
+      {"name": "Sales of product"},
+      {"name": "Loans"},
+      {"name": "Revenue"},
+      {"name": "Proceeds"},
+      {"name": "Expenses"},
+      {"name": "Managerial"},
+      {"name": "Commercial"},
+      {"name": "Production"},
+      {"name": "Personal Training"},
+      {"name": "Office rental"},
+      {"name": "Travel allowance"},
+      {"name": "Advertising"},
+      {"name": "Wages"},
+      {"name": "Purchase of raw materials"},
+      {"name": "Payment of % on loans"}
+      
+    ],
+    "links":  [
+      {"source": 0,"target": 4,"value": 20},
+      {"source": 1,"target": 4,"value": 20},
+      {"source": 2,"target": 4,"value": 60},
+      {"source": 3,"target": 5,"value": 20},
+      {"source": 4,"target": 5,"value": 80},
+      {"source": 5,"target": 6,"value": 100},
+      {"source": 6,"target": 7,"value": 100},
+      {"source": 6,"target": 8,"value": 100},
+      {"source": 6,"target": 9,"value": 100},
+      {"source": 7,"target": 10,"value": 35},
+      {"source": 7,"target": 11,"value": 35},
+      {"source": 7,"target": 14,"value": 30},
+      {"source": 8,"target": 12,"value": 33},
+      {"source": 8,"target": 13,"value": 33},
+      {"source": 8,"target": 17,"value": 34},
+      {"source": 9,"target": 15,"value": 60},
+      {"source": 9,"target": 14,"value": 20},
+      {"source": 9,"target": 16,"value": 20}
+    ]
+  }

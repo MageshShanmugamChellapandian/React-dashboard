@@ -1,0 +1,43 @@
+:root {
+  --dim: 28px;
+}
+
+.profilecards {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.profilecard {
+  border-radius: 100%;
+  background-color: plum;
+  height: var(--dim);
+  width: var(--dim);
+  color: purple;
+  padding: 0.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  font-weight: 500;
+}
+
+.profilecard:nth-of-type(1) {
+  right: calc(var(--dim) * 4 - 1rem);
+}
+.profilecard:nth-of-type(2) {
+  right: calc(var(--dim) * 3 - 1rem);
+  background-color: gold;
+  color: brown;
+}
+
+.profilecard:nth-of-type(3) {
+  right: calc(var(--dim) * 2 - 1rem);
+  background-color: #97d486;
+  color: green;
+}
+.profilecard:nth-of-type(4) {
+  right: calc(var(--dim) * 1 - 1rem);
+  background-color: skyblue;
+  color: #4273ab;
+}

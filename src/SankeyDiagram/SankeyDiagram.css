@@ -1,0 +1,9 @@
+.sankeydiagram {
+  padding: 1rem;
+}
+
+@media (min-width: 1024px) {
+  .sankey {
+    grid-column: 2/4;
+  }
+}

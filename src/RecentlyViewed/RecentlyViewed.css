@@ -1,0 +1,27 @@
+.recently_content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.recently_content_stats {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0rem 1rem;
+}
+
+.recently_content_text div:nth-child(1) {
+  font-weight: 500;
+}
+
+.recently_content_text div:nth-child(2) {
+  color: rgb(106, 106, 106);
+  font-size: 0.9rem;
+}
+
+.recently_content_btn:hover {
+  cursor: pointer;
+  font-weight: 900;
+}

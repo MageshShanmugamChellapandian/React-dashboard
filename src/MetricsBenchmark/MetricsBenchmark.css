@@ -1,0 +1,27 @@
+.metrics_stat_wrapper {
+  display: grid;
+  grid-auto-columns: minmax(0, 1fr);
+  grid-auto-flow: column;
+  justify-content: center;
+  margin: 0rem 1rem;
+}
+
+.metrics_stat_data {
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+}
+
+.metrics_stat_data div:nth-child(1) {
+  color: blue;
+  margin-bottom: 0.3rem;
+  font-size: 0.9rem;
+}
+.metrics_stat_data div:nth-child(2) {
+  font-size: 0.9rem;
+}
+.metrics_stat_data div:nth-child(3) {
+  font-size: 0.8rem;
+
+  color: green;
+}

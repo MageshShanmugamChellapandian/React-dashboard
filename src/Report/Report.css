@@ -1,0 +1,177 @@
+:root {
+  --gray_20: #dadbdc;
+  --gray_40: #b5b2b7;
+  --gray_80: #646477;
+  --red_100: #b0241f;
+}
+
+.report_modal {
+  display: none;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  background: white;
+  color: black;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: scroll;
+}
+
+.report_modal::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+.report_modal::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+.report_modal::-webkit-scrollbar-thumb {
+  background: var(--gray_20);
+  border-radius: 12px;
+}
+
+.report_modal_open {
+  display: block;
+}
+
+.rpmodal {
+  padding: 0.6rem 1.5rem;
+  padding-bottom: 0.1rem;
+}
+
+.rpmodal_header {
+  color: #646477;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.2rem;
+  padding-bottom: 0.6rem;
+  box-shadow: 0 6px 4px -4px rgba(0, 0, 0, 0.2);
+}
+.rpmodal_header_left {
+  font-size: 1.2rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.rpmodal_header_left span {
+  margin-left: 1.5rem;
+}
+
+.rpmodal_header_right {
+  display: flex;
+  align-items: center;
+}
+.rpmodal_header_right * {
+  padding: 0rem 0.5rem;
+}
+.rpmodal_header_right *:not(:last-child) {
+  border-right: 1px solid #b5b2b7;
+}
+
+.rpmodal_header_avatar {
+  background-color: #b0241f;
+  color: white;
+  margin-left: 0.5rem;
+  border-radius: 50px;
+  display: grid;
+  place-items: center;
+}
+
+/* ------------- report modal form -------------- */
+.rpmodal_element {
+  padding: 0.3rem 0rem;
+  border-bottom: 1px solid var(--gray_20);
+}
+.rpmodal_element.rpmodal_title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.rpmodal_element.rpmodal_title div:first-of-type {
+  color: var(--red_100);
+  font-size: 1.2rem;
+}
+
+.rpmodal_element.rpmodal_title div:nth-child(2) {
+  color: var(--gray_80);
+}
+
+.rp_modal_heading {
+  font-size: 0.9rem;
+  font-weight: bolder;
+  letter-spacing: 1px;
+}
+
+.rf_form_element {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: 15% 30% 30%;
+  gap: 3rem;
+  margin: 0.3rem 0rem;
+}
+
+.rf_form_element label {
+  font-size: 0.85rem;
+}
+
+.rf_form_element input {
+  padding: 0.1rem 1rem;
+  border: 1px solid var(--gray_20) !important;
+  border-style: inset;
+  border-radius: 4px;
+}
+
+.rf_form_element input[type="file"] {
+  border: none !important;
+  background-color: var(--red_100);
+}
+
+.rf_form_upload_btn label {
+  background-color: var(--red_100);
+  color: white;
+  padding: 0.1rem 1.2rem;
+  font-size: 0.86rem;
+  font-weight: 500;
+}
+
+.rf_form_btn_grid {
+  display: flex;
+  gap: 2rem;
+}
+
+.rf_form_btn_grid_center {
+  justify-content: center;
+}
+
+.rpmodal_form_submit {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 2rem;
+  padding: 1rem 2rem;
+}
+.rpmodal_form_submit button {
+  background-color: var(--red_100);
+  color: white;
+  padding: 0.1rem 1.2rem;
+  border: none;
+  outline: 0;
+  font-size: 0.86rem;
+  font-weight: 500;
+}
+
+.form_selected_file_name {
+  color: blue;
+  font-size: 1rem;
+  text-decoration: underline;
+}
+
+.rpmodal_footer {
+  text-align: center;
+}

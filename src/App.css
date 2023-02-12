@@ -1,0 +1,8 @@
+.highcharts-container {
+  z-index: -1 !important;
+}
+
+.modalOpen {
+  height: 100vh;
+  overflow: hidden;
+}
